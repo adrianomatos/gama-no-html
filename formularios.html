@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+</head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Texto descritivo da página">
+<meta name="author" content="Adriano Matos">
+<title>Minha página</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main role="main">
+        <form action="" method="post">
+
+            <!-- INPUT -->
+            <label for="campo1">Nome: </label>
+            <input type="text" name="nome" id="campo1" placeholder="Digite o nome completo"><br>
+
+            <!-- OPTION -->
+            <label for="campo2">Especialidade: </label>
+            <select name="interesses" id="campo2">
+                <option value="1">PHP</option>
+                <option value="2">Java</option>
+                <option value="3">C#</option>
+                <option value="4">Python</option>
+            </select><br>
+
+            <!-- RADIO -->
+            <fieldset>
+                <legend>Janela ou corredor: </legend>
+                <label for="campo31">Janela </label>
+                <input type="radio" name="opcao" id="campo31" value="1">
+                <label for="campo32">Corredor </label>
+                <input type="radio" name="opcao" id="campo32" value="2">
+                <label for="campo33">Indiferente </label>
+                <input type="radio" name="opcao" id="campo33" value="2"><br>
+            </fieldset>
+
+            <!-- CHECKBOX -->
+            <fieldset>
+                <legend>Interesses: </legend>
+                <label for="campo41">Viajar </label>
+                <input type="checkbox" name="opcao2" id="campo41" value="1">
+                <label for="campo42">Dançar </label>
+                <input type="checkbox" name="opcao2" id="campo42" value="2">
+                <label for="campo43">Cantar </label>
+                <input type="checkbox" name="opcao2" id="campo43" value="3"><br>
+            </fieldset>
+
+            <!-- SUBMIT -->
+            <input type="submit" value="Enviar">
+
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
